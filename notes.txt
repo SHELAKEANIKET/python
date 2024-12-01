@@ -1,0 +1,27 @@
+1. pass keyword in python 
+=> used as a placeholder for future code
+=> used in class, function and conditionals
+
+2. __name__ 
+=> in python this __ (double underscore) is called as dunder
+
+3. python virtual environment
+=> create a folder and inside this run the commands
+1. install virtual environment
+    - pip install virtualenv
+2. create virtualenv folder
+    - python -m venv env_name
+3. activate virtualenv
+    - .\env_name\Scripts\activate
+4. install packages (inside virtualenv)
+    - pip install pymongo
+5. get list of packages
+    - pip list
+6. create a requirement.txt folder
+    - pip list > requirement.txt
+7. To install all the packages specified in a requirements.txt file at once
+    - pip install -r requirements.txt
+8. to uninstall packages
+    - pip uninstall package_name
+9. deactivate virtualenv
+    - deactivate
